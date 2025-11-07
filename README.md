@@ -1,5 +1,13 @@
 # Assigment - DAT305
 
+## Useful commands
+
+Evaluate CNN:
+
+```bash
+tensorboard --logdir .\logs\
+```
+
 ## Task 5: Tumor Segmentation
 
 Goal: Students will build and evaluate a tumor segmentation model (brain tumor) using a
