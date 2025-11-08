@@ -1,5 +1,41 @@
 # Assigment - DAT305
 
+## Useful commands
+
+Evaluate CNN:
+
+```bash
+tensorboard --logdir .\logs\
+```
+
+## Running the notebooks
+
+### 1. Install UV
+
+```bash
+# On macOS and Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# On Windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Or using pip
+pip install uv
+```
+
+### 2. Create venv
+
+```bash
+#creates venv and downloads all packages from pyproject.toml
+uv sync
+```
+
+### 3. Use the virtual enviroment for the jupyter notebooks
+
+```bash
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
 ## Task 5: Tumor Segmentation
 
 Goal: Students will build and evaluate a tumor segmentation model (brain tumor) using a
