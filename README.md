@@ -32,7 +32,9 @@ uv sync
 
 ### 3. Use the virtual enviroment for the jupyter notebooks
 
+```bash
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
 
 ## Task 5: Tumor Segmentation
 
